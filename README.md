@@ -7,6 +7,19 @@
 в тетрадках содержатся инструкции по запуску.
 Для запуска .ipynb файлов нужно использовать Google Colab.
 
+is_george/
+│
+├── notebooks/                # все ваши jupyter-тетрадки
+│   ├── 01_download_data.ipynb   # раньше — URL_TO_IMG.ipynb
+│   ├── 02_train_model.ipynb     # раньше — IS_GEORGE.ipynb
+│   └── 03_inference.ipynb       # раньше — reproduce.ipynb       
+│
+├── models/                   # (опционально) здесь сохранять .h5 или SavedModel
+│
+├── requirements.txt          
+└── README.md                 # краткое описание и быстрый старт
+
+
 Файл IS_GEORGE.ipynb хранит основной код: автоматическое скачивание папок с изображениями
 Файл URL_TO_IMG.ipynb содержит функцию для перевода URL ссылок в изображения, воспринимаемые CNN.
 Файл reproduce.ipynb позволяет загрузить свое изображение со ссылкой на него, чтобы классифицировать
