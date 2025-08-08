@@ -11,10 +11,10 @@ is_george/
 │
 ├── notebooks/                   # тетрадки
 │   ├── URL_TO_IMG.ipynb.ipynb   # функцию для перевода URL ссылок в изображения
-│   ├── IS_GEORGE.ipynb     # основной код и обучение модели
-│   └── reproduce.ipynb       # для загрузки своих изображений и классификации       
+│   ├── IS_GEORGE.ipynb          # основной код и обучение модели
+│   └── reproduce.ipynb          # для загрузки своих изображений и классификации       
 │
-├── models/                   # сохранена model.h5
+├── models/                      # папка с model.h5
 │
 ├── requirements.txt          
 └── README.md                 
